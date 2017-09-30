@@ -15,7 +15,7 @@ int main() {
 	// and read into the vars
 
 	printf("Two numbers, please: ");
-	scanf("%ld", &num1); 
+	scanf("%ld", &num1);
 	scanf("%ld", &num2); 
 
 	//Divide
