@@ -1,0 +1,12 @@
+1) c11 -o flute flute.c
+2) 8 6
+3) PASSED
+
+4) 	// single line
+	/* ... */
+
+5) scanf("5d", &keyboardinput);
+6)  7 + 5/2 = 7 + 2 = 9 => double = 9.000000
+7) 
+	if(range < 1 || range > 20)
+		printf("Out of Range\n");
