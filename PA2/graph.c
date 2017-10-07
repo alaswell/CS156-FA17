@@ -32,9 +32,8 @@ int main() {
 	// Carrots using while loop 
 	printf("\nPounds of Carrots: ");
 	int j = 0;
-	while(j < carrots) {
+	while(j++ < carrots) {
 		printf("C");
-		j++;
 	}
 
 	// Lettuce using do while
@@ -42,19 +41,18 @@ int main() {
 	j = 0;
 	do {
 		// gotta check for 0
-		if(lettuce != 0)
-			printf("L");		
+		// bc do always runs once
+		if(lettuce != 0) printf("L");		
 	} while(++j < lettuce);
 
 	// Peas using while loop
 	printf("\nPounds of Peas:    ");
 	j = 0;
-	while(j < peas) {
+	while(j++ < peas) {
 		printf("P");
-		j++;
 	}
 
-	// squash using for loop
+	// Squash using for loop
 	printf("\nPounds of Squash:  ");
 	for(int i = 0; i < squash; i++) {
 		printf("S");
