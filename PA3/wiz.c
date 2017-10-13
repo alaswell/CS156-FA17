@@ -64,7 +64,7 @@ void show_title_given_year(int year) {
 			printf("In %d: Glinda of Oz", year);
 			break;
 		default:
-			printf("Sorry, no such book");
+			printf("Sorry, no such book.");
 			break;
 	}
 }
