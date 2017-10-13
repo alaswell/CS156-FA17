@@ -1,9 +1,11 @@
 // CS156    HW3
 // Author:  Alex Laswell
 // Created: 10-11-2017
-// Purpose: loop until the user says not to 
-// Input:   five (5) integer numbers where x >= 0
-// Output:  A bar graph of the input
+// Purpose: loop until user exits and
+// 	    process the requested action 
+// Input:   {'h', 'i', 'q', 'y'} followed by 
+// 	    the specific action for each char
+// Output:  The corresponding movie, age, or help menu
 
 #include <stdio.h>
 
