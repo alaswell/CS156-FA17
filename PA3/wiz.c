@@ -9,6 +9,7 @@
 
 
 void show_menu() {
+	// void function with no args
 	// prints the help menu
 	printf("h - help\n");
 	printf("i - show age of the Oz book for that index\n");
@@ -18,7 +19,8 @@ void show_menu() {
 
 
 void show_title_given_year(int year) {
-	// prints the Oz title of the book 
+	// void function with an int arg
+	// prints the title of the Oz book 
 	// that was published in that year
 	switch(year) {
 		case 1900: 
@@ -71,6 +73,10 @@ void show_title_given_year(int year) {
 
 
 void show_age_given_index(int index) {
+	// void function with and int arg
+	// prints the difference of the cur year (2017) and 
+	// the year of the book that was published;
+	// at the user provided input
 	int years[] = {1900, 1904, 1907, 1908, 1909, 1910, 1913, 1914, 1915, 1916, 1917, 1918, 1919, 1920};
 	if(index > 0 && index < 14) 
 		printf("Published %d years ago.", 2017 - years[index-1]);
@@ -114,6 +120,7 @@ int main() {
 				show_title_given_year(value);
 				break;		
 			default:
+				// otherwise invalid
 				printf("Invalid request '%c'; 'h' for help.", opt);
 				break;
 		}
